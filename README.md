@@ -1,6 +1,6 @@
 ## Kubernetes Deployment and Autoscaling on Amazon EKS
 
-**Scenario:**
+## Scenario:
 
 ShopEase is a growing e-commerce company that's getting ready to modernize the way its backend services run. The engineering team wants to nail down a consistent, repeatable way to package and deploy applications before going all-in on microservices at scale.
 Right now, the backend service is:
@@ -66,13 +66,20 @@ The goal is for Kubernetes to feel practical and logical by the end — not abst
 
 ## Services used:
 
-•	Docker — to containerize the application
-•	Amazon ECR — to store the Docker images
-•	Amazon EKS — the managed Kubernetes cluster
-•	Amazon EC2 — the worker nodes that run inside the cluster
-•	Amazon VPC — handles networking for EKS
-•	AWS IAM — manages permissions and access control
-•	Kubernetes (kubectl) — to deploy and manage workloads
+•	**Docker** — to containerize the application
+
+•	**Amazon ECR** — to store the Docker images
+
+•	**Amazon EKS** — the managed Kubernetes cluster
+
+•	**Amazon EC2** — the worker nodes that run inside the cluster
+
+•	**Amazon VPC** — handles networking for EKS
+
+•	**AWS IAM** — manages permissions and access control
+
+•	**Kubernetes (kubectl)** — to deploy and manage workloads
+
 
 
 
