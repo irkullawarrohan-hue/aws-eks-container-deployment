@@ -1,0 +1,57 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shopease-deployment
+  labels:
+    app: shopease
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: shopease
+  template:
+    metadata:
+      labels:
+        app: shopease
+    spec:
+      containers:
+      - name: shopease-backend
+        image: <ACCOUNT_ID>.dkr.ecr.us-east-1.amazonaws.com/shopease-backend:v1
+        ports:
+        - containerPort: 3000
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "100m"
+          limits:
+            memory: "128Mi"
+            cpu: "200m"
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shopease-deployment
+  labels:
+    app: shopease
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: shopease
+  template:
+    metadata:
+      labels:
+        app: shopease
+    spec:
+      containers:
+      - name: shopease-backend
+        image: 103549976993.dkr.ecr.us-east-1.amazonaws.com/shopease-backend:v1
+        ports:
+        - containerPort: 3000
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "100m"
+          limits:
+            memory: "128Mi"
+            cpu: "200m"
+
