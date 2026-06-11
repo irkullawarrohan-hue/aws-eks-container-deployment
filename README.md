@@ -117,6 +117,7 @@ The application has API endpoints, health checks, and a simple UI to observe wha
 
 ## Final Result:
 
-<img width="940" height="474" alt="image" src="https://github.com/user-attachments/assets/8a333712-863e-4d52-8515-d7c806cd5b51" />
+<img width="1919" height="617" alt="image" src="https://github.com/user-attachments/assets/74ff1497-993d-4c7c-b4ed-1229c2c1dc32" />
+
 
 
